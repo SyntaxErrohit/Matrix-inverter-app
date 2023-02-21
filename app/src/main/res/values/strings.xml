@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Matrix inverter</string>
-    <string name="enter1">Enter</string>
-    <string name="enter2">Enter</string>
-    <string name="enter3">Enter</string>
-    <string name="enter4">Enter</string>
-    <string name="enter5">Enter</string>
-    <string name="enter6">Enter</string>
-    <string name="enter7">Enter</string>
-    <string name="enter8">Enter</string>
-    <string name="enter9">Enter</string>
+    <string name="enter1">Enter 1</string>
+    <string name="enter2">Enter 2</string>
+    <string name="enter3">Enter 3</string>
+    <string name="enter4">Enter 4</string>
+    <string name="enter5">Enter 5</string>
+    <string name="enter6">Enter 6</string>
+    <string name="enter7">Enter 7</string>
+    <string name="enter8">Enter 8</string>
+    <string name="enter9">Enter 9</string>
 </resources>
