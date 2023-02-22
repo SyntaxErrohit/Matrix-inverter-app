@@ -7,38 +7,42 @@
     tools:context=".MainActivity">
 
     <TableLayout
-        android:layout_width="150dp"
-        android:layout_height="135dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="211sp"
+        android:layout_height="211sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16">
+        app:layout_constraintVertical_bias="0.1">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextNumberSigned12"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box1"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter1"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned13"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box2"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter2"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned14"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box3"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter3"
                 android:inputType="numberSigned" />
         </TableRow>
 
@@ -47,24 +51,27 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextNumberSigned15"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box4"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter4"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned16"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box5"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter5"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned17"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box6"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter6"
                 android:inputType="numberSigned" />
         </TableRow>
 
@@ -73,27 +80,52 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextNumberSigned18"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box7"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter7"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned19"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box8"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter8"
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned20"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:id="@+id/box9"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:autofillHints=""
+                android:hint="@string/enter9"
                 android:inputType="numberSigned" />
         </TableRow>
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="133dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.396" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
