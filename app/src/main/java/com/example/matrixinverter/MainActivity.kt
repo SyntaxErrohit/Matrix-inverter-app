@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
                 val textd = "Result:\n1\n" + "-".repeat(d.toString().length+2) + "\n" + d.toString()
                 var s = "\n"
                 for (i in adj) {
-                    s += i.toString() + "\n"
+                    s += "|${i[0]} ${i[1]} ${i[2]}|\n"
                 }
                 resultd.text = textd
                 result.text = s
