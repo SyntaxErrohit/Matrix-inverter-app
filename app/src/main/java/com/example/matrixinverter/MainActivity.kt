@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val generate = findViewById<Button>(R.id.button)
         val result = findViewById<TextView>(R.id.result)
+        val resultd = findViewById<TextView>(R.id.resultd)
         val m00 = findViewById<EditText>(R.id.box00)
         val m01 = findViewById<EditText>(R.id.box01)
         val m02 = findViewById<EditText>(R.id.box02)
@@ -61,18 +62,22 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-            val l1 = (0..2).sumOf { adj[it][0] * matrix[it][0] }
-            val l2 = (0..2).sumOf { adj[0][it] * matrix[0][it] }
+            val d = (0..2).sumOf { adj[it][0] * matrix[0][it] }
 
-            if (l1 != 0 && l2 != 0) {
-                var s = "Result\n"
+            if (d != 0) {
+                val textd = "Result:\n1\n" + "-".repeat(d.toString().length+2) + "\n" + d.toString()
+                var s = "\n"
                 for (i in adj) {
-                    s += "|\t${i[0]},\t ${i[1]},\t ${i[2]}|\n"
+                    s += i.toString() + "\n"
                 }
+                resultd.text = textd
                 result.text = s
             } else {
                 Toast.makeText(this, "Matrix is singular", Toast.LENGTH_SHORT).show()
-                result.text = "None. Matrix is singular"
+                val textd = "None."
+                val textm = "Matrix is singular"
+                resultd.text = textd
+                result.text = textm
             }
 
         }
