@@ -22,7 +22,7 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/box1"
+                android:id="@+id/box00"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -30,7 +30,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box2"
+                android:id="@+id/box01"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -38,7 +38,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box3"
+                android:id="@+id/box02"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -51,7 +51,7 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/box4"
+                android:id="@+id/box10"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -59,7 +59,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box5"
+                android:id="@+id/box11"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -67,7 +67,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box6"
+                android:id="@+id/box12"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -80,7 +80,7 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/box7"
+                android:id="@+id/box20"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -88,7 +88,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box8"
+                android:id="@+id/box21"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -96,7 +96,7 @@
                 android:inputType="numberSigned" />
 
             <EditText
-                android:id="@+id/box9"
+                android:id="@+id/box22"
                 android:layout_width="70sp"
                 android:layout_height="70sp"
                 android:autofillHints=""
@@ -111,17 +111,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Button"
+        android:text="@string/generate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/result"
         android:layout_width="183dp"
         android:layout_height="133dp"
-        android:text="TextView"
+        android:text="@string/result"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

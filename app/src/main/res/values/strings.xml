@@ -10,4 +10,6 @@
     <string name="enter8">Enter 8</string>
     <string name="enter9">Enter 9</string>
     <string name="bracket">[   ]</string>
+    <string name="result">Result</string>
+    <string name="generate">Generate</string>
 </resources>
